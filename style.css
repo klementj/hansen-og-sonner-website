@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #FF8D1C;
+    --secondary-color: #f2bf8c;
+    --bg-color: #f8f8f8;
+}
+
+body {
+display: none;
+margin: 0;
+}
