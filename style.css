@@ -4,5 +4,43 @@
     --bg-color: #f8f8f8;
 }
 
+<<<<<<< HEAD
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+small {
+    font-family: ff-tisa-web-pro, serif;
+    font-style: normal;
+    color: #000000;
+}
 
+h1 {
+    font-size: 90.44pt;
+}
 
+h2 {
+    font-size: 64pt;
+}
+
+h3 {
+    font-size: 45pt;
+}
+
+h4 {
+    font-size: 32pt;
+}
+
+h5 {
+    font-size: 23pt;
+}
+
+p {
+    font-size: 16pt;
+}
+
+small {
+    font-size: 14pt;
+}
