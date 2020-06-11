@@ -4,6 +4,8 @@
     --bg-color: #f8f8f8;
 }
 
+html {font-size: 100%;} 
+
 h1,
 h2,
 h3,
@@ -13,33 +15,37 @@ p,
 small {
     font-family: ff-tisa-web-pro, serif;
     font-style: normal;
+    font-weight: 400;
     color: #000000;
+    line-height: 1.15;
+    margin: 2.75rem 0 1.05rem;
 }
 
 h1 {
-    font-size: 90.44pt;
+    font-size: 5.65rem;
 }
 
 h2 {
-    font-size: 64pt;
+    font-size: 4rem;
 }
 
 h3 {
-    font-size: 45pt;
+    font-size: 2.81rem;
 }
 
 h4 {
-    font-size: 32pt;
+    font-size: 2rem;
 }
 
 h5 {
-    font-size: 23pt;
+    font-size: 1.43rem;
 }
 
 p {
-    font-size: 16pt;
+    font-size: 1rem;
+    margin-bottom: 1.15rem;
 }
 
 small {
-    font-size: 14pt;
+    font-size: 0.875rem;
 }
