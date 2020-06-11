@@ -4,7 +4,7 @@
     --bg-color: #f8f8f8;
 }
 
-<<<<<<< HEAD
+/* HEAD */
 h1,
 h2,
 h3,
@@ -43,4 +43,80 @@ p {
 
 small {
     font-size: 14pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Lucas */
+
+.om-os-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    line-height: 0px;
+}
+
+.om-os-grid > div {
+    display: flex;
+}
+
+picture img {
+    width: 100%;
+}
+
+.om-os-grid > div:nth-of-type(1) {
+    grid-column: 1 / 5;
+    grid-row: 1 / 5;
 }
