@@ -2,9 +2,23 @@
     --primary-color: #FF8D1C;
     --secondary-color: #f2bf8c;
     --bg-color: #f8f8f8;
+    --border-radius: 5px;
+    --h1-size: 5.65rem;
+    --h1-line-height: 0.85;
+    --h2-size: 4rem;
+    --h3-size: 2.81rem;
+    --h3-line-height: 1;
+    --h4-size: 2rem;
+    --h4-line-height: 0.85;
+    --h5-size: 1.43rem;
+    --h5-line-height:
+    --p-size: 1rem;
+    --p-bottom-margin: 1.15rem;
+    --small-size: 0.875rem;
 }
 
-/* HEAD */
+html {font-size: 100%;} 
+
 h1,
 h2,
 h3,
@@ -14,35 +28,10 @@ p,
 small {
     font-family: ff-tisa-web-pro, serif;
     font-style: normal;
+    font-weight: 400;
     color: #000000;
-}
-
-h1 {
-    font-size: 90.44pt;
-}
-
-h2 {
-    font-size: 64pt;
-}
-
-h3 {
-    font-size: 45pt;
-}
-
-h4 {
-    font-size: 32pt;
-}
-
-h5 {
-    font-size: 23pt;
-}
-
-p {
-    font-size: 16pt;
-}
-
-small {
-    font-size: 14pt;
+    line-height: 1.15;
+    margin: 2.75rem 0 1.05rem;
 }
 
 
@@ -91,6 +80,14 @@ small {
 
 
 
+
+
+
+
+
+
+
+/* Her slutter generelt arbejde opgaven */
 
 
 
@@ -120,3 +117,5 @@ picture img {
     grid-column: 1 / 5;
     grid-row: 1 / 5;
 }
+
+
