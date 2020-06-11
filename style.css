@@ -2,6 +2,19 @@
     --primary-color: #FF8D1C;
     --secondary-color: #f2bf8c;
     --bg-color: #f8f8f8;
+    --border-radius: 5px;
+    --h1-size: 5.65rem;
+    --h1-line-height: 0.85;
+    --h2-size: 4rem;
+    --h3-size: 2.81rem;
+    --h3-line-height: 1;
+    --h4-size: 2rem;
+    --h4-line-height: 0.85;
+    --h5-size: 1.43rem;
+    --h5-line-height:
+    --p-size: 1rem;
+    --p-bottom-margin: 1.15rem;
+    --small-size: 0.875rem;
 }
 
 html {font-size: 100%;} 
@@ -21,31 +34,67 @@ small {
     margin: 2.75rem 0 1.05rem;
 }
 
-h1 {
-    font-size: 5.65rem;
-}
 
-h2 {
-    font-size: 4rem;
-}
 
-h3 {
-    font-size: 2.81rem;
-}
 
-h4 {
-    font-size: 2rem;
-}
 
-h5 {
-    font-size: 1.43rem;
-}
 
-p {
-    font-size: 1rem;
-    margin-bottom: 1.15rem;
-}
 
-small {
-    font-size: 0.875rem;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Her slutter generelt arbejde opgaven */
