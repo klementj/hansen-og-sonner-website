@@ -390,3 +390,39 @@ picture img {
 
 
 /*End of Christians smukke arbejde (っ °Д °;)っ/
+
+
+
+
+
+
+
+/* Kontakt + Footer opgave */
+div > .sitefooter {
+    background-color:var(--primary-color);  
+    height: 200px;
+    width: 100%;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px 120px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.sitefooter > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sitefooter > div > small {
+    margin: 0;
+}
+
+.sitefooter > img {
+    grid-column: 8 / 10;
+    width: 300px;
+    display: block;
+    right: 0;
+    object-fit: cover;
+}
