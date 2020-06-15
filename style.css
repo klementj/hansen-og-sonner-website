@@ -1,6 +1,7 @@
 :root {
     --primary-color: #FF8D1C;
     --secondary-color: #f2bf8c;
+    --main-background: #534A3E;
     --bg-color: #f8f8f8;
     --border-radius: 5px;
     --h1-size: 5.65rem;
@@ -60,6 +61,10 @@ p {
 
 small {
     font-size:var(--small-size);
+}
+
+body {
+    background-color: var(--main-background);
 }
 
 
