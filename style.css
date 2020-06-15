@@ -171,12 +171,15 @@ nav {
     background-color: var(--primary-color);
     height: 80px;
     text-align: center;
-
+    z-index: 10;
     
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+
+    position: sticky;
+    top: 0px;
 }
 
 nav ul {
@@ -194,7 +197,7 @@ nav a {
     text-decoration: none;
 }
 
-
+/*Slut på Christians opgave (っ °Д °;)っ*/
 
 
 
