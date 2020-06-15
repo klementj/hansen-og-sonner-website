@@ -171,7 +171,7 @@ nav {
     background-color: var(--primary-color);
     height: 80px;
     text-align: center;
-
+    z-index: 10;
     
     display: flex;
     align-items: center;
