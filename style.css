@@ -96,251 +96,39 @@ small {
 
 
 
-/* Lucas */
+/*Christians smukke arbejde ☆⌒(*＾-゜)v*/
 
-.om-os-grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    line-height: 0px;
+.trees {
+    width: 100vw;
+    height: 100vh;
+
+
 }
 
-.om-os-grid > div {
-    display: flex;
+.button {
+    display: inline-block;
+    font-size: 32pt;
+    text-align: center;
+    color: #534A3E;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #FF8D1C;
+    border-radius: 5px;
 }
 
-picture img {
-    width: 100%;
+.button_call_me {
+    display: inline-block;
+    font-size: 32pt;
+    text-align: center;
+    color: #534A3E;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
 }
 
-.om-os-grid > div:nth-of-type(1) {
-    grid-column: 1 / 5;
-    grid-row: 1 / 5;
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*End of Christians smukke arbejde (っ °Д °;)っ/
 
 
 
@@ -440,7 +228,6 @@ nav a {
 }
 
 
-/*End of Christians smukke arbejde (っ °Д °;)っ/
 
 
 
@@ -448,32 +235,4 @@ nav a {
 
 
 
-/* Kontakt + Footer opgave */
-div > .sitefooter {
-    background-color:var(--primary-color);  
-    height: 200px;
-    width: 100%;
-    padding-top: 40px;
-    display: grid;
-    grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px 120px;
-    gap: 30px;
-    flex-wrap: wrap;
-}
 
-.sitefooter > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.sitefooter > div > small {
-    margin: 0;
-}
-
-.sitefooter > img {
-    grid-column: 8 / 10;
-    width: 300px;
-    display: block;
-    right: 0;
-    object-fit: cover;
-}

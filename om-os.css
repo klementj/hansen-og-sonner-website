@@ -1,0 +1,50 @@
+.om-os-grid {
+    /* position: absolute; */
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    line-height: 0px;
+    /* z-index: -5; */
+}
+
+#featured h4, #featured h5, #featured p {
+    display: none;
+}
+
+#featured picture img {
+    /* object-fit: cover; */
+    /* height: 100%; */
+    /* width: 100%; */
+}
+picture img {
+    width: 100%;
+}
+
+.featured-text {
+    position: relative;
+    /* z-index: 1; */
+    bottom: 0px;
+    /* background: rgb(242,191,140); */
+    /* background: linear-gradient(180deg, rgba(242,191,140,1) 0%, rgba(0,0,0,1) 100%); */
+}
+
+#featured {
+    /* position: absolute; */
+}
+
+#featured picture {
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    /* position: relative; */
+}
+
+.om-os-grid > div {
+    /* display: flex; */
+}
+
+
+.om-os-grid > div:nth-of-type(1) {
+    grid-column: 1 / 5;
+    grid-row: 1 / 5;
+}
