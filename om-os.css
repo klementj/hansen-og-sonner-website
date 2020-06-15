@@ -6,7 +6,7 @@
     grid-template-rows: repeat(5, 1fr);
     line-height: 0px;
     /* z-index: -5; */
-    margin: 0px 10%;
+    margin: 15px 10%;
 }
 
 /* #featured h4, #featured h5, #featured p {
