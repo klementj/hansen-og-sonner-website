@@ -28,7 +28,9 @@ picture img {
     /* z-index: 1; */
     bottom: 0px;
     /* background: rgb(242,191,140); */
-    background: linear-gradient(180deg, rgba(242,191,140,.5) 0%, rgba(0,0,0,1) 100%);
+    /* background: linear-gradient(180deg, rgba(242,191,140,.5) 0%, rgba(0,0,0,1) 100%); */
+    background: linear-gradient(180deg, rgba(242,191,140,.5) 0%, rgba(83,74,62,1) 100%);
+    /* background: linear-gradient(180deg, rgba(83,74,62,1) 0%, rgba(242,191,140,.5) 100%); */
 }
 .featured-text h5, .featured-text h4, .featured-text p {
     color: white;
