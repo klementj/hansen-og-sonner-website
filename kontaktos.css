@@ -1,56 +1,29 @@
 /* Kontakt + Footer opgave */
-.sitefooter {
+.footer {
     background-color:var(--primary-color);  
-    height: 200px;
-    width: 100%;
-    padding-top: 40px;
-    display: grid;
-    grid-template-columns: 220px 130px 130px 130px 130px 130px 130px 130px 130px;
-    gap: 30px;
-    flex-wrap: wrap;
-}
+    padding: 50px;
+    bottom: 0;
+    box-sizing:border-box;
 
+ }
 
-.sitefooter > div {
+ .footer .footer_menu {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    margin-bottom: 25px;
+    justify-content: space-between;
+  }
 
-.sitefooter > div > small {
-    margin: 0;
-}
+  .footer .footer_menu .title {
+    margin-bottom: 10px;
+  }
 
-.sitefooter > img {
-    grid-column: 9 / 11;
-    width: 300px;
+  .footer .footer_menu ul li a {
     display: block;
-    right: 0;
-    object-fit: cover;
-}
+    margin-bottom: 6px;
+  }
 
-.adresse {
-    grid-area: 1 / 2 / 2 / 3 ;
-}
-
-.tlfnmr {
-    grid-area: 1 / 3 / 2 / 4;
-}
-
-.services {
-    grid-area: 1 / 4 / 2 / 5;
-}
-
-.contactus {
-    grid-area: 1 / 5 / 2 / 6;
-}
-
-.information {
-    grid-area: 1 / 6 / 2 / 7;
-}
-
-.adobexd {
-    grid-area: 1 / 7 / 2 / 8;
+.title, p {
+  color:var(--secondary-background)
 }
 
 .div-form {
