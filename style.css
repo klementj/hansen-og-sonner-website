@@ -2,6 +2,7 @@
     --primary-color: #FF8D1C;
     --secondary-color: #f2bf8c;
     --main-background: hsl(0, 0%, 17%);
+    --secondary-background: #413E3A;
     --bg-color: #f8f8f8;
     --border-radius: 5px;
     --h1-size: 5.65rem;
@@ -158,7 +159,7 @@ html {
 .button {
     font-size: var(--h5-size);
     text-align: center;
-    color: #534A3E;
+    color: hsl(0, 0%, 17%);
     text-decoration: none;
     padding: 20px;
     background-color: var(--primary-color);

@@ -78,7 +78,7 @@ div > .kontaktosform > .kontaktosfieldset {
     grid-template-columns: 220px 220px;
     grid-template-rows: 40px 40px 60px 40px 40px 135px 20px 40px 40px;
     border-radius: var(--border-radius);
-    background-color: #817668;
+    background-color: var(--secondary-background);
     color: whitesmoke;
     border-color: transparent;
 }
