@@ -23,7 +23,22 @@
   }
 
 .title, p {
-  color:var(--secondary-background)
+  color:var(--main-background)
+}
+
+.footer_menu { 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;    
+  }  
+
+  @media only screen and (min-width: 768px){
+    .footer_menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: auto;
+    }
 }
 
 .div-form {
