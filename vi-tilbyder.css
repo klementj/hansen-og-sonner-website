@@ -1,0 +1,12 @@
+#slideshow {
+    margin: 15px 10%;
+}
+
+#slideButtons {
+    display: flex;
+}
+
+.slideButton {
+    width: 100%;
+    flex-shrink: 1;
+}
