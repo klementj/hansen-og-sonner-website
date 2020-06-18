@@ -200,6 +200,20 @@ nav a {
     text-decoration: none;
 }
 
+.logo {
+    width: 64px;
+    position: absolute;
+    left: 50px;
+    z-index: 110;
+}
+.cls-1 {
+    fill: purple;
+}
+
+.cls-2 {
+    fill: green;
+}
+
 @media (prefers-color-scheme: light) {
     :root {
         --main-background: #f8f8f8
