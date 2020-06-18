@@ -201,17 +201,22 @@ nav a {
 }
 
 .logo {
-    width: 64px;
+    width: 56px;
     position: absolute;
     left: 50px;
     z-index: 110;
 }
-.cls-1 {
-    fill: purple;
+
+.facebook {
+    width: 32px;
+    position: absolute;
+    right: 50px;
 }
 
-.cls-2 {
-    fill: green;
+.twitter {
+    width: 32px;
+    position: absolute;
+    right: 100px;
 }
 
 @media (prefers-color-scheme: light) {
