@@ -169,6 +169,7 @@ html {
     padding: 20px;
     background-color: var(--primary-color);
     border-radius: 5px;
+    transition: all ease-in 0.25s;
 
 }
 
@@ -177,13 +178,11 @@ html {
 }
 
 .button:hover {
-    transition: ease-in;
     background-color: hsl(30, 100%, 65%);
 }
 
 .button_call_me:hover {
     background-color: #e2e2e2;
-
 }
 
 nav {
@@ -209,6 +208,7 @@ nav ul li {
     display: inline-block;
     padding: 0 1.5rem;
     font-size: 2rem;
+    transition: all ease-in 0.05s;
 }
 
 nav a {
@@ -227,16 +227,30 @@ nav ul li:hover {
     z-index: 110;
 }
 
+.twitter {
+    position: absolute;
+    right: 100px;
+}
+
+.twitter svg{
+    height: 32px;
+    width: 32px;
+    transition: all ease-in 0.10s;
+}
+
+.twitter svg:hover {
+    transform: scale(1.10);
+}
+
 .facebook {
     width: 32px;
     position: absolute;
     right: 50px;
+    transition: all ease-in 0.10s;
 }
 
-.twitter {
-    width: 32px;
-    position: absolute;
-    right: 100px;
+.facebook:hover {
+    transform: scale(1.10);
 }
 
 @media (prefers-color-scheme: light) {
