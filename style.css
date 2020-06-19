@@ -135,15 +135,20 @@ html {
     margin: 0rem;
 }
 
+.hero h3 {
+    margin-bottom: 50px;
+}
+
 .hero_overlay{
-    /*background: hsla(0, 0%, 0%, .2);*/
-    height: 250px;
-    width: 750px;
+    background: hsla(0, 0%, 0%, .2);
+    height: 100vh;
+    width: 100%;
     position: absolute;
     z-index: 0;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -164,10 +169,21 @@ html {
     padding: 20px;
     background-color: var(--primary-color);
     border-radius: 5px;
+
 }
 
 .button_call_me {
     background-color: #f8f8f8;
+}
+
+.button:hover {
+    transition: ease-in;
+    background-color: hsl(30, 100%, 65%);
+}
+
+.button_call_me:hover {
+    background-color: #e2e2e2;
+
 }
 
 nav {
@@ -198,6 +214,10 @@ nav ul li {
 nav a {
     color: var(--main-background);
     text-decoration: none;
+}
+
+nav ul li:hover {
+    transform: scale(1.10);
 }
 
 .logo {
