@@ -177,6 +177,7 @@ html {
 }
 
 .button:hover {
+    transition: ease-in;
     background-color: hsl(30, 100%, 65%);
 }
 
@@ -213,6 +214,10 @@ nav ul li {
 nav a {
     color: var(--main-background);
     text-decoration: none;
+}
+
+nav ul li:hover {
+    transform: scale(1.10);
 }
 
 .logo {
