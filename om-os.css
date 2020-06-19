@@ -9,6 +9,10 @@
     margin: 15px 10%;
 }
 
+.om-os-grid div picture img {
+    cursor: pointer;
+}
+
 /* #featured h4, #featured h5, #featured p {
     display: none;
 } */
