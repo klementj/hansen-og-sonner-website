@@ -62,13 +62,13 @@ ul {
     align-items: center;
 }
 
-div > .kontaktosform {
+div > .kontaktform {
     width: 700px;
     height: 600px;
     display: grid;
 }
 
-div > .kontaktosform > .kontaktosfieldset {
+div > .kontaktosform > .kontaktfieldset {
     width: 100%;
     height: 600px;
     margin: 0;
