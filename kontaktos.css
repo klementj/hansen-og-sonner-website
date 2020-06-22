@@ -152,14 +152,12 @@ input:focus{
 .tilbud {
     margin-bottom: 1rem;
     color: whitesmoke;
-    font-style: italic;
     display: block;
 }
 
 .gratistilbud { 
     margin-bottom: 2rem;
     color: whitesmoke;
-    font-style: italic;
     font-weight: 500;
     display: block;
 }
