@@ -159,6 +159,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
+    object-fit: cover;
 }
 
 .button {
