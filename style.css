@@ -253,6 +253,10 @@ nav ul li:hover {
     transform: scale(1.10);
 }
 
+.slideItem p {
+    color: #f8f8f8;
+}
+
 @media (prefers-color-scheme: light) {
     :root {
         --main-background: #f8f8f8
