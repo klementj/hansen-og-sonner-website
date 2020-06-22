@@ -189,7 +189,6 @@ html {
 nav {
     background-color: var(--primary-color);
     height: 80px;
-    text-align: center;
     z-index: 10;
     
     display: flex;
@@ -274,6 +273,45 @@ nav ul li:hover {
     }
 }
 
+
+    @media (min-width: 375px) and (max-width: 760px) {
+
+        nav {
+            height: 120px;
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            padding: 0rem;
+
+        }
+
+        nav a {
+            font-size: 25px;
+            margin: 0rem;
+        }
+
+        .logo {
+            position: absolute;
+            left: 10px;
+        }
+
+        .twitter {
+            position: absolute;
+            right: 10px;
+            bottom: 20px;
+        }
+
+        .facebook {
+            position: absolute;
+            right: 10px;
+            top: 20px;
+        }
+    }
 /*Slut på Christians opgave (っ °Д °;)っ*/
 
 
