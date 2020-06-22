@@ -138,9 +138,6 @@
     width: 2rem;
 }
 
-
-
-/* temporary fixes */
-#slideButtons p {
-    color: unset;
+.slideItem p {
+    color: #f8f8f8;
 }

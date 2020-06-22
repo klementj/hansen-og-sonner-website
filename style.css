@@ -31,7 +31,7 @@ small {
     font-family: ff-tisa-web-pro, serif;
     font-style: normal;
     font-weight: 400;
-    color: #000000;
+    color: #f8f8f8;
     line-height: 1.15;
     margin: 2.75rem 0 1.05rem;
 }
@@ -212,7 +212,7 @@ nav ul li {
 }
 
 nav a {
-    color: var(--main-background);
+    color: #000000;
     text-decoration: none;
 }
 
@@ -256,6 +256,16 @@ nav ul li:hover {
 @media (prefers-color-scheme: light) {
     :root {
         --main-background: #f8f8f8
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p,
+    small {
+        color: #000000;
     }
 }
 
