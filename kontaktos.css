@@ -62,16 +62,16 @@ ul {
     align-items: center;
 } */
 .kontaktform {
-    width: 100%;
+    max-width: 100%;
     height: 1000px;
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 10;
 }
 
 .kontaktform > .kontaktfieldset {
-    width: 700px;
-    height: 600px;
+    max-width: 100%;
     margin: 0;
     border-radius: var(--border-radius);
     background-color: var(--secondary-background);
@@ -138,7 +138,7 @@ textarea {
 
 .fornavn,
 .efternavn {
-    width: 228px;
+    width: 229px;
     display: inline-block;
     margin-right: 0.5rem;
 }
