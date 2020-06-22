@@ -7,7 +7,7 @@ const featuredSelection = document.querySelectorAll('#om-os > div > picture > im
 
 const featuredH4 = document.querySelector('.featured-text > h4');
 
-
+// event.target.dataset.description
 // console.log(featuredSelection);
 
 // featuredSelection.addEventListener('click', function(imageSelection) {
@@ -16,9 +16,10 @@ const featuredH4 = document.querySelector('.featured-text > h4');
 // });
 
 
-function imageSelection() {
+function imageSelection(event) {
     console.log('It got clicked.');
-    featured.src = imageSelection.target.src;
+    featured.src = event.target.src;
+    featuredH4.src = event.target.dataset.h4.src;
 };
 
 featuredSelection.forEach(function(featuredSelect) {

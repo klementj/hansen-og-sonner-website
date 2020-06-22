@@ -1,33 +1,31 @@
-var slideshow = document.getElementById('slideshow')
-var slideimgLarge = document.getElementById('slideimgLarge')
+const slideshow = document.getElementById('slideshow')
 var slideIndex = 0;
 
 slideshow.addEventListener('click', function(event) {
-    let slideArray = Array.from(document.querySelectorAll('.slideButton'))
+    let slideArray = [ ... document.querySelectorAll('.slideButton')]
 
     if (event.target.classList.contains('slideButton') && slideIndex != slideArray.indexOf(event.target) || event.target.classList.contains('slideArrow')) {
 
+        
+        switch (event.target.getAttribute('class')) {
+            case 'slideButton':
+                slideIndex = slideArray.indexOf(event.target)
+                break;
+            case 'slideArrow slidePrevious':
+                slideIndex = slideIndex - 1
+                if (slideIndex < 0) {
 
-        if (event.target.classList.contains('slideButton')) {
-            slideIndex = slideArray.indexOf(event.target)
-        } else if (event.target.classList.contains('slidePrevious')) {
+                    slideIndex = slideArray.length - 1
+                }
+                break;
+            case 'slideArrow slideNext':
+                slideIndex = slideIndex + 1
+                if (slideIndex > slideArray.length - 1) {
 
-            slideIndex = slideIndex - 1
-            if (slideIndex < 0) {
-
-                slideIndex = slideArray.length - 1
-            }
-
-        } else if (event.target.classList.contains('slideNext')) {
-
-            slideIndex = slideIndex + 1
-            if (slideIndex > slideArray.length - 1) {
-
-                slideIndex = 0
-            }
-
+                    slideIndex = 0
+                }
+                break;
         }
-
 
 
         for (let i = 0; i < slideArray.length; i++) {
@@ -37,7 +35,9 @@ slideshow.addEventListener('click', function(event) {
 
         slideArray[slideIndex].parentElement.setAttribute('class', 'slideimg_container slideTarget')
 
-        slideimgLarge.src = slideArray[slideIndex].getAttribute('src')
+        document.getElementById('slideimgLarge').src = slideArray[slideIndex].getAttribute('src')
+        document.getElementById('slideTitle').innerHTML = slideArray[slideIndex].dataset.slidetitle
+        document.getElementById('slideDescription').innerHTML = slideArray[slideIndex].dataset.slidedescription
         }
     }
 )
