@@ -61,3 +61,15 @@ picture img {
     grid-column: 1 / 5;
     grid-row: 1 / 5;
 }
+
+@media (max-width:700px) {
+    .featured-text > p {
+        font-size: 15px;
+        max-height: 3rem;
+        overflow: scroll;
+        }
+    .featured-text > h4 {
+        font-size: 20px;
+    }
+    
+}
