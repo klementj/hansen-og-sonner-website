@@ -54,32 +54,34 @@ ul {
     list-style-type:none;
   }
 
-/* #kontakt {
+.div-form {
     width: 100%;
     height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
-.kontaktform {
-    max-width: 100%;
-    height: 1000px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 10;
 }
 
-.kontaktform > .kontaktfieldset {
-    max-width: 100%;
+div > .kontaktform {
+    width: 700px;
+    height: 600px;
+    display: grid;
+}
+
+div > .kontaktosform > .kontaktfieldset {
+    width: 100%;
+    height: 600px;
     margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    gap: 15px 15px;
+    grid-template-columns: 220px 220px;
+    grid-template-rows: 40px 40px 60px 40px 40px 135px 20px 40px 40px;
     border-radius: var(--border-radius);
     background-color: var(--secondary-background);
     color: whitesmoke;
     border-color: transparent;
-    box-sizing: border-box;
-    padding: 5rem;
-    padding-top: 3.5rem;
 }
 
 
@@ -90,33 +92,12 @@ ul {
     border: 0;
 }
 
-input:focus,textarea:focus{
-    outline: none;
-}
-
-input:required:invalid, textarea:required:invalid{
-    box-shadow: none;
-}
-
-textarea {
-    resize: none;
-}
-
-.tilbud,
-.gratistilbud,
-.telefonnummer,
-.fornavn,
-.efternavn,
-.beskrivelse,
-.ringmigop {
-    margin: 0;
-    border-radius: var(--border-radius);
-}
-
 .telefonnummer,
 .fornavn,
 .efternavn {
     height: 40px;
+    padding: 0;
+    margin: 0;
     padding-left: 10px;
     background-color: var(--bg-color);
 }
@@ -126,49 +107,51 @@ textarea {
     width: 450px;
     padding: 0;
     padding-left: 10px;
-    padding-top: 10px;
 }
 
 .telefonnummer {
     width: 450px;
-    padding-right: 2rem;
-    display: block;
-    margin-bottom: 1rem;
+    grid-area: 4 / 1 / 5 / 4;
 }
 
 .fornavn,
 .efternavn {
-    width: 229px;
-    display: inline-block;
-    margin-right: 0.5rem;
+    width: 215px;
+}
+
+.fornavn {
+    grid-area: 5 / 1 / 6 / 2 ;
+}
+
+.efternavn {
+    grid-area: 5 / 2 / 6 / 3;
 }
 
 .beskrivelse {
-    display: block;
-    width: 30.1rem;
-    margin-top: 1rem;
+    grid-area: 6 / 1 / 7 / 3;
 }
 
 .ringmigop {
+    grid-area: 8 / 1 / 9 / 2;
     background-color: var(--primary-color);
     border: 0;
+    border-radius: var(--border-radius);
     color:var(--bg-color);
-    display: block;
-    padding: 1rem 4rem;
-    margin-top: 1rem;
 }
 
 .tilbud {
-    margin-bottom: 1rem;
+    grid-area: 2 / 1 / 3 / 2;
+    margin: 0;
     color: whitesmoke;
-    display: block;
+    font-style: italic;
 }
 
-.gratistilbud { 
-    margin-bottom: 2rem;
+.gratistilbud {
+    grid-area: 3 / 1 / 4 / 3;  
+    margin: 0;
     color: whitesmoke;
+    font-style: italic;
     font-weight: 500;
-    display: block;
 }
 
 /* Chrome, Safari, Edge, Opera */
