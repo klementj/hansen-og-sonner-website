@@ -1,28 +1,33 @@
 "use strict";
 
-console.log("Test");
-
 const featured = document.querySelector('#featured > picture > img');
 const featuredSelection = document.querySelectorAll('#om-os > div > picture > img');
 
-const featuredH4 = document.querySelector('.featured-text > h4');
-
-// event.target.dataset.description
-// console.log(featuredSelection);
-
-// featuredSelection.addEventListener('click', function(imageSelection) {
-//     console.log('It got clicked.');
-//     featured.src = imageSelection.target.src;
-// });
-
+const featuredFullName = document.querySelector('.featured-text > h4');
+const featuredWorkTitle = document.querySelector('.featured-text > h5');
+const featuredParagraph = document.querySelector('.featured-text > p');
 
 function imageSelection(event) {
-    console.log('It got clicked.');
+    // console.log('It got clicked.');
     featured.src = event.target.src;
-    featuredH4.src = event.target.dataset.h4.src;
+
+    // HTML H4 change
+    featured.dataset.fullname = event.target.dataset.fullname;
+    featuredFullName.innerHTML = featured.dataset.fullname;
+    // console.log(featured.dataset.fullname);
+
+    // HTML H5 change
+    featured.dataset.worktitle = event.target.dataset.worktitle;
+    featuredWorkTitle.innerHTML = featured.dataset.worktitle;
+    // console.log(featured.dataset.worktitle);
+
+    // HTML paragraph change
+    featured.dataset.description = event.target.dataset.description;
+    featuredParagraph.innerHTML = featured.dataset.description;
+    // console.log(featured.dataset.description);
 };
 
 featuredSelection.forEach(function(featuredSelect) {
-    console.log(featuredSelect);
-    featuredSelect.addEventListener('click', imageSelection)
+    // console.log(featuredSelect);
+    featuredSelect.addEventListener('click', imageSelection);
 });
