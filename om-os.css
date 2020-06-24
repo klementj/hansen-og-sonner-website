@@ -71,5 +71,5 @@
     .om-os-grid > div:nth-of-type(1) {
         grid-column: 1 / 7;
         grid-row: 1 / 5;
-
+    }
 }
