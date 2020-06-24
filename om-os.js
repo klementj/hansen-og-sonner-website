@@ -1,7 +1,7 @@
 "use strict";
 
 const featured = document.querySelector('#featured > picture > img');
-const featuredSelection = document.querySelectorAll('#om-os > div > picture > img');
+const featuredSelection = document.querySelectorAll('#om-os > section > div > picture > img');
 
 const featuredFullName = document.querySelector('.featured-text > h4');
 const featuredWorkTitle = document.querySelector('.featured-text > h5');
