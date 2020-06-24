@@ -278,7 +278,7 @@ nav ul li:hover {
 }
 
 
-    @media (min-width: 375px) and (max-width: 760px) {
+    @media (min-width: 300px) and (max-width: 760px) {
 
         nav {
             height: 120px;
@@ -316,6 +316,7 @@ nav ul li:hover {
             top: 20px;
         }
     }
+
 /*Slut på Christians opgave (っ °Д °;)っ*/
 
 
