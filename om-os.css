@@ -1,75 +1,60 @@
+/* Container for the entire section */
 .om-os-container {
     padding: 75px 10%;
 }
 
+/* Grid setup for all the pictures */
 .om-os-grid {
-    /* position: absolute; */
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
     line-height: 0px;
-    /* z-index: -5; */
-    /* margin: 15px 10%; */
 }
 
+/* Set border radius and clicking indicator for all pictures */
 .om-os-grid div picture img {
     cursor: pointer;
     border-radius: var(--border-radius);
 }
 
+/* Add hover effect with a primary colour border */
 .om-os-hover:hover {
     background-color: var(--primary-color);
     border-radius: var(--border-radius);
     padding: 5px;
 }
 
+/* Position for the placement of the text  gradient later */
+#featured {
+    position: relative;
+}
+
+/* Override clicking indicator for the big image */
 #featured picture img {
-    /* object-fit: cover; */
-    /* height: 100%; */
-    /* width: 100%; */
     cursor: initial;
 }
-picture img {
-    width: 100%;
+
+/* Specifying the size of the featured image */
+.om-os-grid > div:nth-of-type(1) {
+    grid-column: 1 / 5;
+    grid-row: 1 / 5;
 }
 
 /* Gradient with text at bottom of featured image */
 .featured-text {
     position: absolute;
     width: 100%;
-    /* z-index: 1; */
     bottom: 0px;
-    /* background: rgb(242,191,140); */
-    /* background: linear-gradient(180deg, rgba(242,191,140,.5) 0%, rgba(0,0,0,1) 100%); */
-    background: linear-gradient(180deg, rgba(242,191,140,.5) 0%, rgba(83,74,62,1) 100%);
-    /* background: linear-gradient(180deg, rgba(83,74,62,1) 0%, rgba(242,191,140,.5) 100%); */
+    background-color: #F2BF8C7f;
 }
 .featured-text h5, .featured-text h4, .featured-text p {
     color: white;
     margin: 10px 10px;
 }
 
-#featured {
-    position: relative;
-}
 
-#featured picture {
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-    /* position: relative; */
-}
-
-.om-os-grid > div {
-    /* display: flex; */
-}
-
-.om-os-grid > div:nth-of-type(1) {
-    grid-column: 1 / 5;
-    grid-row: 1 / 5;
-}
-
-
+/* Changes for tablet compatibility */
 @media (max-width: 768px) {
     .om-os-container {
         padding: 0px 1%;
@@ -77,6 +62,7 @@ picture img {
 }
 
 
+/* Changes for phone compatibility */
 @media (max-width: 480px) {
     .om-os-container {
         padding: 75px 1%;
